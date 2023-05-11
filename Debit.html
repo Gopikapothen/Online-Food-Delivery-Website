@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Page/Debit Card</title>
+<link href="credit.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="powderblue">
+
+<h1><center><font face="Comic sans Ms">Online Payment</font></center></h1>
+<br>
+
+<center><table>
+<font face="Comic sans MS" size="5">Select the payment mode</font>
+<br>
+
+<th><a href="new 2.html"><img src="https://previews.123rf.com/images/subjob/subjob1711/subjob171100062/90140299-icon-graphic-credit-card-money-bank-black-and-white-pictogram-for-web-design-vector-flat-illustratio.jpg" height="50" width="90" ></a>
+<br>
+Credit Card</th>
+
+<th><a href="Debit.html"><img src="https://dbdzm869oupei.cloudfront.net/img/sticker/preview/21379.png" height="50" width="80"></a><br>
+Debit Card</th>	
+	
+<th><a href="Netbanking.html"><img src="https://thumbs.dreamstime.com/b/netbanking-icon-isolated-white-background-your-web-mobile-app-design-133860592.jpg" height="50" width="90" ></a>
+<br>
+Net Banking</th>	
+
+</table>
+<br>
+
+<fieldset style="width:600px";>
+    <legend><b><font color="Black" face="Georgia">DEBIT CARD INFORMATION:</font></b></legend><br>
+<form>
+
+<label>NAME ON CARD : </label>
+&nbsp;&nbsp; 
+<input type="Text" class="txt" id="cname"/>
+<br>
+<br>
+<label>CARD NUMBER : </label>
+&nbsp;&nbsp;
+<input type="Text" size="50" class="txt" name="cnum" placeholder="0000-0000-0000-0000"/>
+<br>
+<br>
+<label>EXPIRATION : </label>
+&nbsp;&nbsp;
+<input type="number" class="text_box"  type="text"  placeholder="MM" min="1" max="12" name="emonth"/>	 
+<input type="number" class="text_box" type="text" placeholder="YYYY" min="2021" name="eyear" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<label> CVV NUMBER : </label>															
+<input  class="cv"  type="password" placeholder="xxx" id="cvv" />	
+<br>
+
+<br>
+
+
+<button class="button" onclick="validate()"> <a href="LastPage.html"> Pay Now </a></button>	
+									
+</form>					
+</fieldset>
+    </center>
+    
+</body>
+</html>

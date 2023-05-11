@@ -1,0 +1,115 @@
+table, th 
+{
+  border: 5px solid Black;
+}
+table 
+{
+  border-spacing: 30px;
+}
+.text_box {
+    display: inline;
+    width: 60px;
+    padding: 3px 5px;
+    outline: none;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #444;
+    width: 10%;
+    color: #606060;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+   
+}
+input.text_box {
+    background: #fcfcfc;
+    border: 1px solid #ebeced;
+}
+.txt {
+    display: inline;
+    width: 60px;
+    padding: 3px 5px;
+    outline: none;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #444;
+    width: 50%;
+    color: #606060;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+   
+}
+.cv
+{
+    display: inline;
+    width: 60px;
+    padding: 3px 5px;
+    outline: none;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #444;
+    width: 10%;
+    color: #606060;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+
+.button
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.bank
+{
+	display: inline;
+    width: 60px;
+    padding: 3px 5px;
+    outline: none;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #444;
+    width: 75%;
+    color: #606060;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+.dropdown
+{
+    display: inline;
+    width: 60px;
+    padding: 3px 5px;
+	outline: none;
+    margin-left: 1%;
+    font-size: 20px;
+    color: #444;
+    width: 50%;
+    color: #606060;
+    font-size: 15px;
+    padding: 8px 0 8px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+
+}  
+	
+
